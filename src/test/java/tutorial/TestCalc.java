@@ -10,4 +10,11 @@ class TestCalc {
         int result = calc.add(1,1);
         assertEquals(2, result);
     }
+    
+    @Test
+    void subtract(){
+        int result = calc.subtract(1,1);
+        assertEquals(0, result);
+    }
+    
 }
